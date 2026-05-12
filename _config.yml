@@ -1,0 +1,21 @@
+title: TMK Group
+description: Privacy-first mobile apps for every culture.
+url: https://tmkgroup.vn
+baseurl: ""
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github
